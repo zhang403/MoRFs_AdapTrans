@@ -1,0 +1,33 @@
+MoRFchibi 2.0 is a specialized prediction tool designed to identify the locations of Molecular Recognition Features (MoRFs) within protein sequences.
+MoRFchibi 2.0 是一款专门的预测工具，旨在识别蛋白质序列中分子识别特征（MoRFs）的位置。
+
+MoRFchibi 2.0 generates output scores using an ensemble of logistic regression convolutional neural network models followed by a reverse Bayes Rule, which normalizes for the priors in the training data. As a result, MoRFchibi 2.0 scores are individually interpretable, enabling direct comparison and integration with other scores following the same output framework, such as IPA.
+MoRFchibi 2.0 通过一系列逻辑回归卷积神经网络模型生成输出分数，随后采用反贝叶斯规则，对训练数据中的先验进行归一化。因此，MoRFchibi 2.0 分数可单独解释，便于与遵循相同输出框架的其他评分（如 IPA）直接比较和整合。
+
+AVAILABILITY  
+可获得性
+HTML server: MoRFchibi 2.0.
+HTML 服务器： MoRFchibi 2.0。
+For downloadable software: https://github.com/NawarMalhis/MC2.git.
+下载软件方面：https://github.com/NawarMalhis/MC2.git。
+Datasets:  数据集：
+All training and testing data: MC2-MoRF-Data.zip
+所有训练和测试数据：MC2-MoRF-Data.zip
+
+Training data:  训练数据：
+CV1: cv1.af  CV1：cv1.af
+CV2: cv2.af  CV2：cv2.af
+CV3: cv3.af  CV3：cv3.af
+CV4: cv4.af  CV4：cv4.af
+Testing data:  测试数据：
+The complete test set: Test-143.af
+完整测试集：Test-143.af
+The complete test set without masked residues: Test-143_unmasked.af
+无掩蔽残留的完整测试集：Test-143_unmasked.af
+A subset of the test set with AlphaFold structures in the AlphaFold database: Test-128_AF2.af
+AlphaFold 数据库中包含 AlphaFold 结构的测试集子集：Test-128_AF2.af
+A subset of the test set used to compute the success-rate: Test-106_success.af
+用于计算成功率的测试集子集：Test-106_success.af
+Reference:  参考资料：
+When using MoRFchibi 2.0, please cite: Malhis, N, Gsponer, J. 2025. Predicting molecular recognition features in protein sequences with MoRFchibi 2.0. bioRxiv doi: 10.1101/2025.01.31.635962.
+使用 MoRFchibi 2.0 时，请引用：Malhis， N， Gsponer， J. 2025。利用 MoRFchibi 2.0 预测蛋白质序列中的分子识别特征。bioRxiv doi： 10.1101/2025.01.31.635962.
