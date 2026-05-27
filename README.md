@@ -6,7 +6,8 @@ MoRFs_AdapTrans：MoRFs Prediction Based on Adaptive Feature Fusion and Improved
 
 
 Add your training and testing dataset in the data directory or use pre-prepared datasets.
-echo "hello"
+```bash
+python clean_text.py
 
 
 
